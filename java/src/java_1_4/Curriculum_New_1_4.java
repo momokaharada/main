@@ -56,7 +56,7 @@ public class Curriculum_New_1_4 {
 	     // 20.0
 		 System.out.println( f + d );
 	     // a ハロー true
-		 System.out.println( c + str + b );
+		 System.out.println ( c + " " + str + " " + b );
 	     // 11130.0                    数字を全て足す
 		 System.out.println( by + s + i + l + f + d );
 	     // 10000000000                小数点以外の数字を全てかける

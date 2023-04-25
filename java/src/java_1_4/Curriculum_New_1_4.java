@@ -18,6 +18,7 @@ public class Curriculum_New_1_4 {
 		 char c;
 		 String str;
 		 boolean b;
+		 
 	     // Q2 それぞれのクラス変数をローカル内でそれぞれの初期値を代入し初期化してください
     	 by = 0;
 		 s = 0;
@@ -28,6 +29,7 @@ public class Curriculum_New_1_4 {
 		 c  = '\0';
 		 str = null;
 		 b = false;
+		 
 	     // Q3 初期化をしたそれぞれの変数に下記の値を代入してください
 	     // ・バイト型                 10
 		 by = 10;

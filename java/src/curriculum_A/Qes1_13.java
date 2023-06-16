@@ -4,7 +4,7 @@ public class Qes1_13 {
 	
 	 public static void main(String[] args) {
 		 
-	    //Q1 下記9個をクラス変数として宣言のみしてください
+	    //Q1 下記9個をローカル変数として宣言のみしてください			
 		 
 	    //バイト型
 		byte by;
@@ -25,7 +25,7 @@ public class Qes1_13 {
 	    //ブーリアン型
 		boolean b;
 		
-		//Q2 それぞれのクラス変数をローカル内でそれぞれの初期値を代入し初期化してください
+		//Q2 それぞれのローカル変数をローカル内でそれぞれの初期値を代入し初期化してください			
 		
 		by = 0;
 		s = 0;
@@ -33,7 +33,7 @@ public class Qes1_13 {
 		l = 0L;
 		f = 0.0f;
 		d = 0.0d;
-		c  = '\0';
+		c  = '\u0000';
 		str = null;
 		b = false;
 		 
@@ -158,7 +158,7 @@ public class Qes1_13 {
 		//Q10 8で使用した年齢が25歳以上ならtrueが出力されるようにしてください。ただしif文は使いません		
 		
 		boolean age1;
-		age1 = ( age >= 25 );
+		age1 = ( age < 25 );
 		System.out.println( age1 );
 		
 		// 改行

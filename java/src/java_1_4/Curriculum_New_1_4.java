@@ -26,7 +26,7 @@ public class Curriculum_New_1_4 {
 		 l = 0L;
 		 f = 0.0f;
 		 d = 0.0d;
-		 c  = '\0';
+		 c  = '\u0000';
 		 str = null;
 		 b = false;
 		 

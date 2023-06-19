@@ -2,30 +2,29 @@ package curriculum_A;
 
 public class Qes1_13 {
 	
+	    //バイト型
+		static byte by;
+		//短整数型
+		static short s;
+		//整数型
+		static int i;
+		//長整数型
+		static long l;
+	    //単精度浮動小数点数型
+		static float f;
+		//倍精度浮動小数点数型
+		static double d;
+		   
 	 public static void main(String[] args) {
 		 
-	    //Q1 下記9個をローカル変数として宣言のみしてください			
-		 
-	    //バイト型
-		byte by;
-		//短整数型
-		short s;
-		//整数型
-		int i;
-		//長整数型
-		long l;
-	    //単精度浮動小数点数型
-		float f;
-		//倍精度浮動小数点数型
-		double d;
-	    //文字型
+		//文字型
 		char c;
 		//文字列型
 	    String str;
-	    //ブーリアン型
-		boolean b;
+		//ブーリアン型
+	    boolean b;
 		
-		//Q2 それぞれのローカル変数をローカル内でそれぞれの初期値を代入し初期化してください			
+		//Q2 それぞれのクラス変数をローカル内でそれぞれの初期値を代入し初期化してください
 		
 		by = 0;
 		s = 0;
